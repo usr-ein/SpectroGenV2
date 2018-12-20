@@ -1,4 +1,4 @@
-# SpectroGen
+# SpectroGen V2
 
 ![](http://image.noelshack.com/fichiers/2018/13/7/1522597018-endresult.png)
 
