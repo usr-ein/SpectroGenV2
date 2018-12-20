@@ -1,12 +1,16 @@
-import wave             # For WAVE file format
-import struct           # For WAVE file format
-import math             # For cosine
-import time             # For timestamps
-import numpy as np      # For manipulating matrix
-from PIL import Image   # For loading images
-import scipy.ndimage    # For resampling
-from tqdm import tqdm   # For progress bar
+#  Created by Samuel Prevost on 20/12/2018.
+#  Copyright © 2016 Samuel Prevost. All rights reserved.
+
+import math  # For cosine
+import struct  # For WAVE file format
+import time  # For timestamps
+import wave  # For WAVE file format
+
+import numpy as np  # For manipulating matrix
+import scipy.ndimage  # For resampling
+from PIL import Image  # For loading images
 from pydub import AudioSegment  # For mixing two soundtracks
+from tqdm import tqdm  # For progress bar
 
 
 def load_image(file):
